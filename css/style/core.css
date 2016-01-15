@@ -1,0 +1,165 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    min-width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #9b9b9b;
+}
+
+p, a{
+    font-size: 17px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    color: #5c5c5c;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+h6{
+    color: #5c5c5c;
+    text-transform: capitalize;
+}
+
+input, select, textarea{
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+strong {
+    font-weight: 700;
+}
+
+a{
+/*    color: #008fd5;*/
+    text-decoration: none;
+    -webkit-transition: color ease-in-out .15s;
+    -moz-transition: color ease-in-out .15s;
+    -o-transition: color ease-in-out .15s;
+    transition: color ease-in-out .15s;
+
+}
+
+a:hover, a:focus{
+/*    color: #0073aa;*/
+
+    text-decoration: none;
+}
+
+/*a:focus, a:active{
+    color: #18adf2;
+}*/
+
+/* Clear float */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+a.button{
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #18adf1;
+}
+
+.rubber-image{
+    width: 100%;
+    height: auto;
+}
+
+
