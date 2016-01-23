@@ -7,7 +7,6 @@
 
 .section-block-one h1{
     font-size: 58px;
-    font-weight: normal;
     text-transform: capitalize;
     line-height: 120%;
 }
@@ -174,18 +173,29 @@
 
 .section-block-one .slider-container{
     width: 461px;
-    background: no-repeat url('../../img/test.png') 0 0;
+    background: no-repeat url('../../img/container_white.png') 0 0;
+    background-size: cover;
+}
+
+.overlap{
+    position: absolute;
+    top: 0;
+    width: 461px;
+    height: 110px;
+    z-index: 90;
+    cursor: default;
 }
 
 .slider-container .swiper-container {
-    width: 391px;
-    margin-left: 30px;
-    padding-top: 105px;
+    width: 400px;
+    margin-left: 31px;
+    padding-top: 109px;
 }
 
 .swiper-container .button-slider{
     position: absolute;
-    left: 43px;
+    left: 50%;
+    margin-left: -153px;
     text-align: center;
     line-height: 60px;
     width: 307px;
@@ -204,4 +214,96 @@
     background: #00aef3;
 }
 
+.swiper-background{
+    height: 515px;
+}
 
+.swiper-background-one{
+    background: url('../../img/background-one.jpg');
+    background-size: cover;
+}
+
+.swiper-background-two{
+    background: url('../../img/background-two.jpg');
+    background-size: cover;
+}
+
+.swiper-background-three{
+    background: url('../../img/background-three.jpg');
+    background-size: cover;
+}
+
+.info-phone{
+    position: relative;
+}
+
+.info-phone{
+    position: relative;
+
+}
+
+
+.points li{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 -1px;
+    background: white;
+}
+
+.points {
+    position: absolute;
+    top: 112px;
+    z-index: 100;
+    left: 37px;
+}
+
+.info-phone .time{
+    font-size: 16px;
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    margin-left: -35px;
+    z-index: 100;
+}
+
+.info-phone .battery{
+    position: absolute;
+    top: 112px;
+    z-index: 100;
+    right: 37px;
+}
+
+.phone-text{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.phone-text h3{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.phone-text p{
+    margin-top: 5px;
+    text-indent: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.home-main .section-block-one .slider-container{
+    float: right;
+}
+
+.home-main .section-block-one p{
+    text-indent: 0;
+}
+
+.home-main .section-block-one .slider-container{
+    background: no-repeat url('../../img/container_black.png') 0 0;
+    background-size: cover;
+}
+
+.home-main .swiper-slide{
+    margin-top: -1px;
+}

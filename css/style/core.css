@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+
 /* Eric Meyer's CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -38,8 +40,8 @@ time, mark, audio, video {
 html, body {
     height: 100%;
     min-width: 320px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
     color: #9b9b9b;
 }
 
@@ -47,16 +49,20 @@ p, a{
     font-size: 17px;
 }
 
+h1{
+    font-weight: 100;
+}
+
 h2{
     font-size: 45px;
-    font-weight: normal;
+    font-weight: 100;
     color: #5c5c5c;
 }
 
 h3{
     color: white;
-    font-size: 25px;
-    font-weight: normal;
+    font-size: 28px;
+    font-weight: 100;
 }
 
 h6{

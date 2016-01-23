@@ -3,30 +3,26 @@
 }
 
 .header nav a{
-    margin: 0 30px;
     color: #aca1a1;
 }
 
-.header nav{
+.header nav li{
     display: inline-block;
+    margin-left: 40px;
 }
 
-.header nav a:first-child{
+.header.agent-header nav li:last-child{
+    margin-left: 10px;
+}
+
+.header nav li:first-child{
     margin: 0;
-}
-
-.header a.button:first-child{
-    margin-left: 20px;
 }
 
 .header a.button{
     color: white;
 }
 
-.header a.button{
-    margin: 0;
-    margin-left: 10px;
-}
 
 
 

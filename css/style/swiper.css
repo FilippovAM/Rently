@@ -12,6 +12,12 @@
  * 
  * Released on: December 7, 2015
  */
+
+/*.swiper-slide img{
+  width: 100%;
+  height: 100%;
+}*/
+
 .swiper-container {
   margin: 0 auto;
   position: relative;
