@@ -65,6 +65,11 @@ h3{
     font-weight: 100;
 }
 
+h4{
+    font-size: 22px;
+    color: #2d2d2d;
+}
+
 h6{
     color: #5c5c5c;
     text-transform: capitalize;
@@ -75,10 +80,14 @@ input, select, textarea{
     border-radius: 5px;
     padding: 15px;
     font-size: 17px;
+    color: #5c5c5c;
 }
+
+
 
 ol, ul {
     list-style: none;
+    font-size: 17px;
 }
 
 blockquote, q {
@@ -99,6 +108,10 @@ img {
 }
 strong {
     font-weight: 700;
+}
+
+small{
+    font-size: 0.9em;
 }
 
 a{
@@ -142,7 +155,7 @@ a:hover, a:focus{
     vertical-align: middle;
 }
 
-.section{
+.content{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -156,7 +169,7 @@ a:hover, a:focus{
     text-align: right;
 }
 
-a.button{
+.button{
     text-transform: capitalize;
     padding: 10px 30px;
     border-radius: 5px;

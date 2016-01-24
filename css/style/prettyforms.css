@@ -7,7 +7,7 @@
     box-shadow: 0 0 5px rgba(255, 0, 0, 0.14) !important;
 }
 
-.has-warning .alert.alert-danger{
+.section-block-map .has-warning .alert.alert-danger{
     color: white;
     padding-left: 15px;
 }

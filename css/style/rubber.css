@@ -1,0 +1,68 @@
+@media screen and (max-width: 920px){
+    .section-propeties .description{
+        margin-top: 50px;
+    }
+    .section-propeties .description:first-child{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .plan{
+        table-layout: auto;
+    }
+
+    .section-registration-step form .row > *[class*=col-]{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .section-registration-step .content:first-child{
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .step-line ul li::after{
+        white-space: normal;
+        text-align: center;
+    }
+
+    .step-line ul li:first-child::after{
+        margin-left: -22px;
+    }
+
+    .step-line ul li:nth-child(2)::after{
+        margin-left: -15px;
+    }
+
+    .registration-step{
+        margin-top: 30px;
+    }
+
+    .step-line ul li::after{
+        top: -60px;
+    }
+
+    .section-registration-step .content:first-child{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*
+@media screen and (max-width: 439px) {
+    .form-card input.form-control {
+        min-width: 100%;
+        display: block;
+    }
+    .form-card input[type="submit"].button{
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 15px;
+    }
+}*/

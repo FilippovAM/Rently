@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rently</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Rently"/>
+    <meta property="og:description" content="Rently..."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://"/>
+    <meta property="og:image" content="http:// "/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<section class="section-registration-step">
+    <div class="content">
+        <div class="registration-step">
+            <div class="step-line">
+                <ul>
+                    <li class="active"></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <form action="" method="post" novalidate>
+            <div class="row ">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>First name
+                            <input type="text" placeholder="First name" name="first-name" data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Last name
+                            <input type="text" placeholder="Last name" name="last-name" data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Email address
+                            <input type="email" placeholder="Email address" name="email"
+                                   data-validation="notempty;isemail">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Password
+                            <input type="password" placeholder="Password" name="password"
+                                   data-validation="notempty;minlength:6">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm password
+                            <input type="password" placeholder="Confirm password" name="confirm-password"
+                                   data-validation="notempty;passretry">
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Date of birth
+                            <small>(DD/MM/YYYY)</small>
+                            <input type="text" placeholder="Date of birth" name="date-of-birth"
+                                   data-validation="notempty;isdate">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Country
+                            <input type="text" placeholder="Country" name="country" data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>State (or province)
+                            <input type="text" placeholder="State (or province)" name="state"
+                                   data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>City
+                            <input type="text" placeholder="City" name="city" data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="brokerage">Confirm password</label>
+                        <select id="brokerage" name="brokerage" data-validation="notempty">
+                            <option value="" selected="selected" disabled="disabled">Subject</option>
+                            <option value="1">test</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Security Question
+                            <input type="text" placeholder="Security question" name="security-question"
+                                   data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Answer
+                            <input type="text" placeholder="Answer" name="answer" data-validation="notempty">
+                        </label>
+                    </div>
+                    <div class="checkbox-container">
+                        <small>To "create" please check the following boxes:</small>
+                        <div class="form-group">
+                            <input type="checkbox" checked id="checkbox-one">
+                            <label for="checkbox-one">I agree to the Rently service agreement and privacy
+                                policy.</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="checkbox-two">
+                            <label for="checkbox-two">I certify thar all information provided is accurate.</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="checkbox-three">
+                            <label for="checkbox-three">I want Rently to send me promotional offers and update me on
+                                upcoming events.</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="button registration-button" type="submit" name="" value="Next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/prettyforms.js"></script>
+<script src="js/prettyforms_en.js"></script>
+<script src="js/rently.js"></script>
+
+
+</body>
+</html>

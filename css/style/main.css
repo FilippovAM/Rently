@@ -1,72 +1,69 @@
 
-.section-block-one{
+.section-slider{
     background: #18adf1;
     padding-top: 60px;
     color: white;
 }
 
-.section-block-one h1{
+.section-slider h1{
     font-size: 58px;
     text-transform: capitalize;
     line-height: 120%;
 }
 
-.section-block-one p{
+.section-slider p{
     margin-top: 15px;
     margin-bottom: 30px;
     text-indent: 30px;
 }
 
-.section-block-two{
+.section-propeties{
     padding: 35px 0;
 }
 
-.section-block-two  h2:first-child{
+.section-propeties  h2:first-child{
     padding: 45px 0;
     text-align: center;
 }
 
-.section-block-two .description{
+.section-propeties .description{
     margin-top: 100px;
-}
-
-.section-block-two .left-column{
-    text-align: right;
 }
 
 .description p{
     margin-top: 10px;
 }
 
-.section-block-three{
+.section-box-blue{
     background: #18adf1;
     padding: 90px 0;
 }
 
-.section-block-three a.button{
-    background: white;
+.section-box-blue a.button{
+    border-radius: 5px;
+    text-align: center;
     color: #18adf1;
-    padding: 20px 75px;
+    padding: 16px;
     text-transform: uppercase;
 }
 
-.section-block-four{
+.section-subscribe{
     padding: 90px 0;
 }
 
-.section-block-four h2:first-child{
+.section-subscribe h2:first-child{
     text-align: center;
 }
 
-.section-block-four p{
+.section-subscribe p{
     margin: 70px 0;
 }
 
-.section-block-four p{
+.section-subscribe p{
     color: #5c5c5c;
 }
 
-.section-block-four input[type="email"]{
+.section-subscribe input[type="email"]{
     width: 100%;
 }
 
@@ -78,14 +75,16 @@
     padding-left: 5px;
 }
 
-.section-block-four a.button{
+.section-subscribe .button{
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     display: block;
+    width: 100%;
+    border: 1px solid #18adf1;
 }
 
-.section-block-four .social-icons{
+.section-subscribe .social-icons{
     margin-top: 40px;
     text-align: center;
     display: inline-block;
@@ -171,7 +170,7 @@
 
 
 
-.section-block-one .slider-container{
+.section-slider .slider-container{
     width: 461px;
     background: no-repeat url('../../img/container_white.png') 0 0;
     background-size: cover;
@@ -291,15 +290,15 @@
     letter-spacing: 1px;
 }
 
-.home-main .section-block-one .slider-container{
+.home-main .section-slider .slider-container{
     float: right;
 }
 
-.home-main .section-block-one p{
+.home-main .section-slider p{
     text-indent: 0;
 }
 
-.home-main .section-block-one .slider-container{
+.home-main .section-slider .slider-container{
     background: no-repeat url('../../img/container_black.png') 0 0;
     background-size: cover;
 }
@@ -307,3 +306,339 @@
 .home-main .swiper-slide{
     margin-top: -1px;
 }
+
+.home-main .section-steps-rently{
+    padding-top: 65px;
+}
+
+.section-steps-rently h2{
+    text-align: center;
+}
+
+.section-steps-rently .finder-flow{
+    padding-top: 60px;
+}
+
+.section-steps-rently .rubber-image{
+    max-width: 310px;
+}
+
+.section-subscribe .form-group{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.section-subscribe .form-group:last-child{
+    width: 31.6%;
+}
+
+.section-subscribe .form-group:first-child{
+    width: 49.125%;
+}
+
+.section-subscribe .alert-danger > p{
+    margin: 0;
+    text-align: left;
+}
+
+.registration-step{
+    padding: 60px 20px 60px 20px;
+}
+
+.step-line{
+    background: #eaeaea;
+    height: 7px;
+    width: 100%;
+}
+
+.step-line ul{
+    position: relative;
+}
+
+ .step-line ul li{
+    position: absolute;
+    top: -30px;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 7px solid #eaeaea;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.step-line ul li.active{
+    background: #18adf1;
+}
+
+.step-line ul li.active::after{
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.step-line ul li:first-child{
+    left: -30px;
+}
+
+.step-line ul li:last-child{
+    right: -30px;
+}
+
+.step-line ul li:nth-child(2){
+    left: 50%;
+    margin-left: -30px;
+}
+
+.step-line ul li::after{
+    position: absolute;
+    top: -35px;
+    white-space: nowrap;
+    color: #adadad;
+}
+
+.step-line ul li:first-child::after {
+    content: 'Account Selection';
+    margin-left: -57px;
+}
+
+.step-line ul li:nth-child(2)::after{
+    content: 'Account Details';
+    margin-left: -50px;
+}
+
+.step-line ul li:last-child::after{
+    content: 'Overview';
+    margin-left: -21px;
+}
+
+.table-responsive{
+    margin-bottom: 20px;
+}
+
+.table.plan{
+    margin-bottom: 0;
+    border-radius: 5px;
+    background: #fcfcfb;
+    text-align: center;
+    table-layout: auto;
+}
+
+.table.plan td, .table.plan th{
+    padding: 10px 30px 10px;
+    color: #5c5c5c;
+    font-size: 17px;
+    vertical-align: middle;
+    border: none;
+}
+
+.table.plan tbody tr:first-child td{
+    font-weight: 400;
+}
+
+.table.plan i.fontello-icon::before{
+    font-size: 30px;
+    color: #18adf1;
+}
+
+.table.plan thead th{
+    padding-top: 20px;
+    font-size: 22px;
+    color: #2d2d2d;
+    text-align: center;
+    vertical-align: top;
+}
+
+.table.plan tfoot td{
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.table.plan tfoot td a.button{
+    color: white;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.table.plan thead th:first-child{
+    text-align: left;
+}
+
+.table.plan tbody tr td:first-child{
+    text-align: left;
+}
+
+.contact-us{
+    text-align: center;
+}
+
+.contact-us h4{
+    color: #18adf1;
+    font-size: 25px;
+}
+
+.contact-us p{
+    color: #5c5c5c;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contact-us a.button{
+    background: #4a4a4a;
+    color: white;
+    display: inline-block;
+    width: 230px;
+    margin-top: 20px;
+}
+
+.section-registration-step .form-group input, .section-registration-step .form-group select{
+    display: inline-block;
+    width: 100%;
+}
+
+.section-registration-step label{
+    padding-left: 2px;
+    color: #5c5c5c;
+    font-size: 17px;
+    display: block;
+}
+
+.section-registration-step input, .section-registration-step select{
+    margin-top: 5px;
+}
+
+.section-registration-step form *[class*=col-] .form-group:first-child{
+    margin-top: 0;
+}
+
+.section-registration-step .form-group{
+    margin-top: 15px;
+}
+
+.checkbox-container{
+    margin-top: 40px;
+}
+
+.checkbox-container .form-group input[type="checkbox"]{
+    display: none;
+}
+
+.checkbox-container .form-group label::before{
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(152, 152, 152, 0.75);
+    background: url('../../img/input-unchecked.png') no-repeat center center;
+
+    transition: background ease-in-out .15s;
+}
+
+.checkbox-container .form-group input:checked + label::before{
+    background: url('../../img/input-checked.png') no-repeat center center;
+}
+
+.checkbox-container .form-group label{
+    position: relative;
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 0.9em;
+}
+
+.checkbox-container > small{
+    color: #5c5c5c;
+}
+
+.checkbox-container .form-group input.button{
+    margin-top: 33px;
+}
+
+.section-registration-step input.registration-button{
+    display: block;
+    margin: 0 auto;
+}
+
+.registration-button{
+    max-width: 275px;
+    color: white;
+    width: 100%;
+    border: 1px solid #18adf1;
+    padding: 15px;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card-container article h1{
+    text-align: center;
+    font-size: 32px;
+}
+
+.card-container article h1 strong{
+    font-size: 36px;
+}
+
+.section-registration-step .form-card input {
+    margin-top: 15px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.form-card input:first-child{
+    margin-top: 0;
+}
+
+.form-card input[name="expiry"].form-control {
+    width: 112px;
+}
+
+.form-card input[name="cvc"].form-control {
+    width: 107px;
+}
+
+.section-registration-step .form-card input.registration-button{
+    width: 121px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.result-form{
+    color: #4a4a4a;
+}
+
+.result-form p{
+    font-size: 16.8px;
+    font-weight: 400;
+}
+
+.result-form ul{
+    margin-top: 30px;
+}
+
+.result-form ul li{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.result-form ul li span{
+    font-weight: 100;
+}
+
+.result-form ul li:first-child{
+    margin-top: 0;
+}
+
+
+
+
+
+
+
