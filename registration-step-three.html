@@ -22,6 +22,26 @@
 </head>
 
 <body>
+<div class="modal fade"  id="modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть"><span aria-hidden="true">×</span></button>
+                <h3 class="modal-title" id="gridModalLabel">Welcome to the Rently family!</h3>
+                <p>We havesent instructions to the following registered email address</p>
+            </div>
+            <div class="modal-body">
+                <div class="container-modal">
+                    <label for="email-result">Registered email:</label>
+                    <input type="text" id="email-result" value="" disabled>
+                    <a href="home-agent.html" class="button">Back home</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="section-registration-step">
     <div class="content">
         <div class="registration-step">
@@ -36,24 +56,24 @@
     </div>
     <div class="content">
         <div class="row row-inline align-middle clearfix">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="result-form">
                     <p>You are almost done! Please verify your details</p>
                     <ul>
-                        <li>Email address: <span id="email-address">AgentName@gmail.com</span></li>
+                        <li>Email address: <span id="agent-email">AgentName@gmail.com</span></li>
                         <li>Username: <span id="user-name">UsernameID</span></li>
                         <li>Account type: <span id="account-type">Silver</span></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4"><div class='card-wrapper'></div></div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class='card-wrapper'></div></div>
+            <div class="col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-6 col-xs-12">
                     <div class="card-container">
                         <form class="form-card">
-                            <input class="form-control" type="text" name="number" placeholder="CARD NUMBER">
-                            <input class="form-control" type="text" name="full-name" placeholder="CARDHOLDER NAME"/>
-                            <input class="form-control" type="text" name="expiry" placeholder="MM/YYYY"/>
-                            <input class="form-control" type="text" name="cvc" placeholder="CVC CODE"/>
+                            <input class="form-control" type="text" id="number" name="number" placeholder="CARD NUMBER" data-validation="minlength:16">
+                            <input class="form-control" type="text" id="full-name" name="full-name" placeholder="CARDHOLDER NAME"/>
+                            <input class="form-control" type="text" id="expiry" name="expiry" placeholder="MM/YYYY"/>
+                            <input class="form-control" type="text" id="cvc" name="cvc" placeholder="CVC CODE"/>
                             <input type="submit" class="button registration-button" value="Send"/>
                         </form>
                     </div>
@@ -67,6 +87,7 @@
 <script src="js/prettyforms.js"></script>
 <script src="js/prettyforms_en.js"></script>
 <script src="js/jquery.card.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/rently.js"></script>
 
 </body>

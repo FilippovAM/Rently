@@ -1,5 +1,6 @@
 .header{
-    padding: 10px 0;
+    background: white;
+    height: 91px;
 }
 
 .header nav a{
@@ -21,6 +22,10 @@
 
 .header a.button{
     color: white;
+}
+
+.header a.button:hover, .header a.button:focus{
+    background: #18adf1 !important;
 }
 
 

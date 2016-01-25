@@ -24,7 +24,8 @@
 
 /* Pipaluk */
 .button--pipaluk {
-    width: 230px;
+    max-width: 230px;
+    width: 100%;
     padding: 1.5em 3em;
     color: #fff;
 }

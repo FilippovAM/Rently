@@ -81,9 +81,12 @@ input, select, textarea{
     padding: 15px;
     font-size: 17px;
     color: #5c5c5c;
+    font-weight: 300;
 }
 
-
+label{
+    font-weight: 300;
+}
 
 ol, ul {
     list-style: none;

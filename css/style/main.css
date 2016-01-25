@@ -92,7 +92,7 @@
 
 .social-icons li{
     display: inline-block;
-    margin-left: 30px;
+    padding: 0 15px;
 }
 
 .social-icons li a{
@@ -137,8 +137,14 @@
     background-size: cover;
 }
 
+.section-block-map form{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .form-container{
-    padding: 65px 135px 80px;
+    padding: 65px 25px 80px;
 }
 
 .form-container h2{
@@ -416,6 +422,7 @@
 }
 
 .table.plan{
+    width: 100%;
     margin-bottom: 0;
     border-radius: 5px;
     background: #fcfcfb;
@@ -597,15 +604,16 @@
 }
 
 .form-card input[name="expiry"].form-control {
-    width: 112px;
+    width: 32%;
 }
 
 .form-card input[name="cvc"].form-control {
-    width: 107px;
+    width: 33.5%;
 }
 
 .section-registration-step .form-card input.registration-button{
-    width: 121px;
+    width: 32%;
+
     display: inline-block;
     vertical-align: top;
 }
@@ -635,6 +643,31 @@
 .result-form ul li:first-child{
     margin-top: 0;
 }
+
+
+
+
+
+
+
+
+.content-link{
+    padding-bottom: 60px;
+}
+
+.content-link li{
+    margin: 10px 0;
+}
+
+.content-link li a{
+    color: white;
+}
+
+
+
+
+
+
 
 
 
