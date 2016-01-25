@@ -175,7 +175,7 @@
         max-width: 100%;
     }
 
-    .section-slider .row *[class*=col-]:last-child{
+    .agent-main .section-slider .row *[class*=col-]:last-child{
         display: none;
     }
 
