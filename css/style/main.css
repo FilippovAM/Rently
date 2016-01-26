@@ -680,6 +680,18 @@
     color: white;
 }
 
+.section-box-blue a.button{
+    background: white;
+    max-width: 230px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.section-box-blue a.button:hover{
+    background: transparent;
+    color: white;
+}
+
 
 
 
