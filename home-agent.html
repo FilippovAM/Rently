@@ -45,11 +45,11 @@
                 <div class="col-sm-9 col-xs-12">
                     <div class="navbar-collapse collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#" title="Home">Home</a></li>
-                            <li><a href="#" title="Features">Features</a></li>
-                            <li><a href="#" title="Rental Search Engine">Rental Search Engine</a></li>
-                            <li><a href="#" title="Newsletter">Newsletter</a></li>
-                            <li><a href="#" title="Contact">Contact</a></li>
+                            <li><a href="#section-slider" title="Home">Home</a></li>
+                            <li><a href="#section-propeties" title="Features">Features</a></li>
+                            <li><a href="#section-steps-rently" title="Rental Search Engine">Rental Search Engine</a></li>
+                            <li><a href="#section-subscribe" title="Newsletter">Newsletter</a></li>
+                            <li><a href="#section-contact" title="Contact">Contact</a></li>
                         </ul>
                     </div>
 
@@ -61,7 +61,7 @@
 </header>
 
 <main class="main home-main">
-    <section class="section-slider">
+    <section class="section-slider" id="section-slider">
         <div class="content">
             <div class="row row-inline align-middle">
                 <div class="col-sm-6">
@@ -73,9 +73,9 @@
                         justo. Vestibulum tempus nunc sit amet imperdiet interdum. In hac habitasse platea dictumst.
                     </p>
 
-                    <a href="#"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
+                    <a href="#" target="_blank"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 phone-slider">
                     <div class="slider-container">
                         <div class="info-phone">
                             <ul class="points">
@@ -134,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section class="section-propeties">
+    <section class="section-propeties" id="section-propeties">
         <div class="content">
             <h2>Real Estate the simplified way...</h2>
 
@@ -205,12 +205,12 @@
                     <h3>Like what you see? Download the app right now </h3>
                 </div>
                 <div class="col-sm-4 align-left col-sm-offset-1">
-                    <a href="#"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
+                    <a href="#" target="_blank"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-steps-rently">
+    <section class="section-steps-rently" id="section-steps-rently">
         <div class="content">
             <h2>Find the perfect rental in 3 easy steps</h2>
 
@@ -227,7 +227,7 @@
             </div>
         </div>
     </section>
-    <section class="section-subscribe">
+    <section class="section-subscribe" id="section-subscribe">
         <div class="content">
             <h2>Subscribe to our newsletter</h2>
 
@@ -244,17 +244,17 @@
                                    data-validation="notempty;isemail">
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Subscribe" class="button">
+                            <input type="submit" value="Subscribe" class="button button-blue">
                         </div>
                     </form>
 
                     <div class="align-center">
                         <ul class="social-icons">
-                            <li><a href=""><i class="fontello-icon icon-facebook"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-twitter"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-gplus"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-linkedin"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-youtube"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-facebook"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-twitter"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-gplus"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-linkedin"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-youtube"></i></a></li>
                         </ul>
                     </div>
 
@@ -262,7 +262,7 @@
             </div>
         </div>
     </section>
-    <section class="section-block-map">
+    <section class="section-contact" id="section-contact">
         <div class="content">
             <div class="form-container">
                 <h2>Send us a message</h2>
@@ -271,32 +271,35 @@
                     <div class="row clearfix">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" name="message-name" placeholder="Name" data-validation="notempty">
+                                <input class="form-control" type="text" name="message-name" placeholder="Name" data-validation="notempty">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="email" name="message-email" placeholder="Email"
+                                <input class="form-control" type="email" name="message-email" placeholder="Email"
                                        data-validation="notempty;isemail">
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <select name="message-select" data-validation="notempty">
-                                    <option value="" selected disabled>Subject</option>
-                                    <option value="1">test</option>
-                                </select>
+                                <div class="select">
+                                    <select class="form-control" name="message-select">
+                                        <option value="-1" selected disabled>Subject</option>
+                                        <option value="1">test</option>
+                                        <option value="1">test</option>
+                                        <option value="1">test</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <textarea name="message-textarea" cols="30" rows="10" placeholder="Enter message.."
-                                          data-validation="notempty"></textarea>
+                                <textarea class="form-control" name="message-textarea" cols="30" rows="10" placeholder="Enter message.."></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="form-group align-center">
-                        <input type="submit" name="" value="SEND">
+                        <input type="submit" class="button button-brown" name="" value="SEND">
                     </div>
                 </form>
             </div>
@@ -310,6 +313,7 @@
 <script src="js/prettyforms_en.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/plugins-scroll.js"></script>
 <script src="js/rently.js"></script>
 
 

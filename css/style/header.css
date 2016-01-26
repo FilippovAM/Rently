@@ -20,13 +20,12 @@
     margin: 0;
 }
 
-.header a.button{
-    color: white;
+.header nav a{
+    color: #5c5c5c !important;
 }
 
-.header a.button:hover, .header a.button:focus{
-    background: #18adf1 !important;
-}
+
+
 
 
 

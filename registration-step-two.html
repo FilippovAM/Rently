@@ -92,11 +92,15 @@
                         </label>
                     </div>
                     <div class="form-group">
-                        <label for="brokerage">Confirm password</label>
-                        <select class="form-control" id="brokerage" name="brokerage" data-validation="notempty">
-                            <option value="" selected="selected" disabled="disabled">Subject</option>
-                            <option value="1">test</option>
-                        </select>
+                        <label for="brokerage">Subject</label>
+                        <div class="select">
+                            <select class="form-control" id="brokerage" name="brokerage" data-validation="notempty">
+                                <option value="-1" selected="selected" disabled="disabled">Subject</option>
+                                <option value="1">test</option>
+                                <option value="1">test</option>
+                                <option value="1">test</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -128,7 +132,7 @@
                                 upcoming events.</label>
                         </div>
                         <div class="form-group">
-                            <input class="button registration-button" type="submit" name="" value="Next">
+                            <input class="button button-blue registration-button" type="submit" name="" value="Next">
                         </div>
                     </div>
                 </div>

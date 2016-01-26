@@ -45,10 +45,10 @@
                 <div class="col-sm-9 col-xs-12">
                     <div class="navbar-collapse collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#" title="Home">Home</a></li>
-                            <li><a href="#" title="Contact">Contact</a></li>
-                            <li><a href="#" class="button">sign up</a></li>
-                            <li><a href="#" class="button">log in</a></li>
+                            <li><a href="#section-slider" title="Home">Home</a></li>
+                            <li><a href="#section-contact" title="Contact">Contact</a></li>
+                            <li><a href="#" class="button button-blue">sign up</a></li>
+                            <li><a href="#" class="button button-blue">log in</a></li>
                         </ul>
                     </div>
 
@@ -60,7 +60,7 @@
 </header>
 
 <main class="main agent-main">
-    <section class="section-slider">
+    <section class="section-slider" id="section-slider">
         <div class="content">
             <div class="row row-inline align-middle">
                 <div class="col-xs-12 visible-xs">
@@ -72,9 +72,9 @@
                         justo. Vestibulum tempus nunc sit amet imperdiet interdum. In hac habitasse platea dictumst.
                     </p>
 
-                    <a href="#"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
+                    <a href="#" target="_blank"><img src="img/appstore_btn.png" alt="link to Appstore"></a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 phone-slider">
 
                     <div class="slider-container">
                         <div class="info-phone">
@@ -196,7 +196,7 @@
                 <div class="col-sm-6 col-sm-offset-1 align-center">
                     <h3>Start taking in leads today, make the switch</h3>
                 </div>
-                <div class="col-sm-4 col-xs-6 align-left  col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
+                <div class="col-sm-4 col-xs-10 align-left  col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
                     <a href="#" class="button button-effect button--pipaluk button--inverted">sign up</a>
                 </div>
             </div>
@@ -216,20 +216,20 @@
 
                     <form action="" method="post" novalidate>
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Enter your email address" data-validation="notempty;isemail">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email address" data-validation="notempty;isemail">
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Subscribe" class="button">
+                            <input type="submit" value="Subscribe" class="button button-blue">
                         </div>
                     </form>
 
                     <div class="align-center">
                         <ul class="social-icons">
-                            <li><a href=""><i class="fontello-icon icon-facebook"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-twitter"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-gplus"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-linkedin"></i></a></li>
-                            <li><a href=""><i class="fontello-icon icon-youtube"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-facebook"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-twitter"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-gplus"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-linkedin"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fontello-icon icon-youtube"></i></a></li>
                         </ul>
                     </div>
 
@@ -237,7 +237,7 @@
             </div>
         </div>
     </section>
-    <section class="section-block-map">
+    <section class="section-contact" id="section-contact">
         <div class="content">
             <div class="form-container">
                 <h2>Send us a message</h2>
@@ -246,30 +246,34 @@
                     <div class="row clearfix">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" name="message-name" placeholder="Name" data-validation="notempty">
+                                <input class="form-control" type="text" name="message-name" placeholder="Name" data-validation="notempty">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="email" name="message-email" placeholder="Email" data-validation="notempty;isemail">
+                                <input class="form-control" type="email" name="message-email" placeholder="Email" data-validation="notempty;isemail">
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <select name="message-select" data-validation="notempty">
-                                    <option value="" selected disabled>Subject</option>
-                                    <option value="1">test</option>
-                                </select>
+                                <div class="select">
+                                    <select class="form-control" name="message-select">
+                                        <option value="-1" selected disabled>Subject</option>
+                                        <option value="1">test</option>
+                                        <option value="1">test</option>
+                                        <option value="1">test</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <textarea name="message-textarea" cols="30" rows="10" placeholder="Enter message.." data-validation="notempty"></textarea>
+                                <textarea class="form-control" name="message-textarea" cols="30" rows="10" placeholder="Enter message.."></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="form-group align-center">
-                        <input type="submit" name="" value="SEND">
+                        <input type="submit" class="button button-brown" name="" value="SEND">
                     </div>
                 </form>
             </div>
@@ -283,6 +287,7 @@
 <script src="js/prettyforms_en.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/plugins-scroll.js"></script>
 <script src="js/rently.js"></script>
 
 

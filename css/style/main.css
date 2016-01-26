@@ -130,14 +130,14 @@
     transform: scale(1);
 }
 
-.section-block-map{
+.section-contact{
     padding: 35px 0 60px 0;
     background-size: 100% 100%;
     background: url('../../img/contact_sec_bg.png') 0 0 no-repeat;
     background-size: cover;
 }
 
-.section-block-map form{
+.section-contact form{
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
@@ -151,7 +151,7 @@
     margin-bottom: 65px;
 }
 
-.section-block-map .form-container{
+.section-contact .form-container{
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
@@ -171,7 +171,8 @@
 
 .form-container .form-group input[type="submit"]{
     width: 230px;
-    color: #18adf1;
+    color: white;
+    border: none;
 }
 
 
@@ -422,8 +423,8 @@
 }
 
 .table.plan{
-    width: 100%;
-    margin-bottom: 0;
+    width: 95%;
+    margin: 0 auto;
     border-radius: 5px;
     background: #fcfcfb;
     text-align: center;
@@ -491,7 +492,6 @@
 }
 
 .contact-us a.button{
-    background: #4a4a4a;
     color: white;
     display: inline-block;
     width: 230px;
@@ -508,10 +508,6 @@
     color: #5c5c5c;
     font-size: 17px;
     display: block;
-}
-
-.section-registration-step input, .section-registration-step select{
-    margin-top: 5px;
 }
 
 .section-registration-step form *[class*=col-] .form-group:first-child{
@@ -644,11 +640,32 @@
     margin-top: 0;
 }
 
+.slider-container .faccebook-button:hover{
+    background: #204687;
+}
+
+.slider-container .email-button:hover{
+    background: #02c0ff;
+}
+
+.button.button-brown{
+    background: #4a4a4a;
+}
+
+.button.button-brown:hover{
+    background: #3c3c3c;
+}
 
 
+.section-contact .form-group.has-warning p{
+    color: white;
+}
 
-
-
+.section-contact .form-group select, .form-group select{
+    height: 56px;
+    color: rgba(92, 92, 92, 0.7);
+    background: transparent;
+}
 
 
 .content-link{

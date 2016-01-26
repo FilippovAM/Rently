@@ -124,7 +124,9 @@
 
 
     .section-slider h1 br {
-        content: ""
+        content: "";
+        padding: 0;
+        margin-left: -12px;
     }
 
     .section-slider h1 br:after {
@@ -241,6 +243,69 @@
     .social-icons li{
         padding: 5px;
     }
+
+    .section-subscribe .content form .form-group{
+        width: auto;
+    }
+
+    .section-contact .form-container h2{
+        margin-bottom: 0px;
+    }
+
+    .form-group{
+        margin-bottom: 0;
+    }
+
+    .section-slider .row-inline .phone-slider{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-header .navbar-toggle{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .section-subscribe .form-group:first-child{
+        margin-bottom: 10px;
+    }
+
+    .section-slider h1{
+        font-size: 45px;
+        line-height: 1.05;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 1.05;
+    }
+
+    h3{
+        font-size: 27px;
+        line-height: 1.05;
+    }
+
+    p, a{
+        font-size: 19px;
+    }
+
+    input, select, textarea{
+        font-size: 19px;
+    }
+
+    main .section-subscribe h2{
+        padding-bottom: 30px;
+    }
+
+    .header.agent-header nav li{
+        width: 45%;
+    }
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 1150px){
@@ -357,7 +422,7 @@
         padding: 45px 0;
     }
 
-    .section-block-map{
+    .section-contact{
         padding: 35px 10px;
     }
 

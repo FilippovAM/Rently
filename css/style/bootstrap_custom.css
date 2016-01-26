@@ -24,12 +24,12 @@
     vertical-align: top;
 }
 
-.full_width > *[class*="col-"]{
+.full_width > *[class*="col-"] {
     padding-left: 0;
     padding-right: 0;
 }
 
-.row.full_width{
+.row.full_width {
     margin-left: 0;
     margin-right: 0;
 }
@@ -39,32 +39,32 @@
     min-height: 0.01%;
 }
 
-.modal-header .close{
+.modal-header .close {
     position: absolute;
     right: 10px;
     top: 10px;
 }
 
-.modal-content{
+.modal-content {
     text-align: center;
     padding: 0 15px;
     color: #4a4a4a;
 }
 
-.modal .modal-header h3{
+.modal .modal-header h3 {
     color: #4a4a4a;
 }
 
-.modal-header{
+.modal-header {
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.modal .modal-body{
+.modal .modal-body {
     padding-bottom: 40px;
 }
 
-.modal .container-modal label{
+.modal .container-modal label {
     padding-left: 2px;
     color: #5c5c5c;
     font-size: 17px;
@@ -72,30 +72,29 @@
     text-align: left;
 }
 
-.modal .container-modal{
+.modal .container-modal {
     max-width: 335px;
     width: 100%;
     display: block;
     margin: 0 auto;
 }
 
-.modal .container-modal input{
+.modal .container-modal input {
     width: 100%;
     color: #686868;
 }
 
-.container-modal a.button{
+.container-modal a.button {
     display: block;
     color: white;
-    background: #686868;
     margin-top: 15px;
 }
 
-.section-registration-step .form-card input.registration-button{
+.section-registration-step .form-card input.registration-button {
     width: 100%;
 }
 
-.navbar-default{
+.navbar-default {
     background: white;
     padding: 10px 0;
 }
@@ -104,28 +103,28 @@
     color: #777777;
 }
 
-.nav.navbar-nav{
+.nav.navbar-nav {
     float: right;
     text-align: right;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
 }
 
-.navbar-nav > li{
+.navbar-nav > li {
     float: none;
 }
 
-.nav > li > a.button{
+.nav > li > a.button {
     padding: 10px 30px;
 }
 
-.navbar-default .navbar-nav > li > a.button{
+.navbar-default .navbar-nav > li > a.button {
     color: white;
 }
 
-.form-control{
+.form-control {
     border: 1px solid #d2d2d2;
     border-radius: 5px;
     padding: 15px;
@@ -135,16 +134,24 @@
     height: auto;
 }
 
-.has-warning .form-control{
+.has-warning .form-control {
     border-color: #d2d2d2;
 }
 
-.has-warning .form-control:focus{
+.has-warning .form-control:focus {
     border-color: #66afe9;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
+
+.navbar-default .navbar-nav > .active > a:not(.button), .navbar-default .navbar-nav > .active > a:hover:not(.button), .navbar-default .navbar-nav > .active > a:focus:not(.button), .navbar-default .navbar-nav a:focus:hover:not(.button), .navbar-default .navbar-nav a:hover:not(.button) {
+    color: #18adf1 !important;
+    background: transparent;
+}
+
+
+
 
 
 
