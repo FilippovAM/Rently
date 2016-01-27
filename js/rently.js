@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     swiper();
-    modalShow();
     emailResult();
     smoothScroll();
     srcollSpy();
@@ -10,11 +9,52 @@ $(document).ready(function () {
 
 });
 
-$('.registration-button').on('click', function () {
-    modalShow();
+$('body').on('submit', '#newsletter', function (e) {
+    e.preventDefault();
+    var $form = $(this);
+
+    $.ajax({
+        type: $form.attr('method'),
+        url: $form.attr('action'),
+        data: $form.serialize(),
+
+        success: function () {
+            if ($form.find('.has-warning').hasClass('has-warning') != 1) {
+                $form.find('input').attr('disabled', 'disabled');
+                $('.section-subscribe h2').fadeOut('fast' , function() {
+                    $(this).html('Thanks for signing up!').fadeIn('slow');
+                })
+            }
+        }
+    });
+
+    return false;
+
 });
 
-function modalShow() {
+$('body').on('submit', '#form-contact', function (e) {
+    e.preventDefault();
+    var $form = $(this);
+    $.ajax({
+        type: $form.attr('method'),
+        url: $form.attr('action'),
+        data: $form.serialize(),
+
+        success: function () {
+            if ($form.find('.has-warning').hasClass('has-warning') != 1){
+                $form.trigger('reset');
+                $('#modal-contact').modal('show');
+            }
+        }
+    });
+    return false;
+});
+
+$('.registration-button').on('click', function () {
+    modalShowCard();
+});
+
+function modalShowCard() {
     var a = location.href;
     var number = $('.form-card #number').attr('name');
     var name = $('.form-card #full-name').attr('name');
@@ -66,7 +106,7 @@ function formCard() {
 }
 
 function emailResult() {
-    $('#email-result').is( function(){
+    $('#email-result').is(function () {
         $(this).val($('#agent-email').html());
     });
 }
@@ -75,16 +115,17 @@ function smoothScroll() {
 
     try {
         $.browserSelector();
-        if($("html").hasClass("chrome")) {
+        if ($("html").hasClass("chrome")) {
             $.smoothScroll();
         }
-    } catch(err) {
+    } catch (err) {
 
-    };
+    }
+    ;
 }
 
 function srcollSpy() {
-    $('#navbar-collapse').is( function() {
+    $('#navbar-collapse').is(function () {
         $('body').scrollspy(
             {target: "#navbar-collapse", offset: 91}
         );
@@ -92,7 +133,7 @@ function srcollSpy() {
 }
 
 function smoothAnchor() {
-    $('.navbar-nav a:not(.button)').on('click', function() {
+    $('.navbar-nav a:not(.button)').on('click', function () {
         event.preventDefault();
 
         var id = $(this).attr('href');
@@ -105,9 +146,8 @@ function smoothAnchor() {
 }
 
 
-
 function styleSelect() {
-    $('select').on('change', function() {
+    $('select').on('change', function () {
         if ($('select option:checked').val() != -1) {
             $(this).css('color', '#5c5c5c');
         }

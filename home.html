@@ -22,6 +22,24 @@
 </head>
 <body>
 
+<div class="modal fade"  id="modal-contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть"><span aria-hidden="true">×</span></button>
+                <h3 class="modal-title">Thanks for you message!</h3>
+            </div>
+            <div class="modal-body">
+                <div class="container-modal">
+                    <p>You should have an reply within no-time</p>
+                    <a data-dismiss="modal" class="button button-brown">Back home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <header class="header agent-header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="content">
@@ -212,9 +230,9 @@
                         dolor mauris
                     </p>
 
-                    <form action="" method="post" novalidate>
+                    <form id="newsletter" action="" method="post" novalidate>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email address" data-validation="notempty;isemail">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email address" data-validation="notempty;isemail" id="agent-email">
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Subscribe" class="button button-blue">
@@ -240,7 +258,7 @@
             <div class="form-container">
                 <h2>Send us a message</h2>
 
-                <form action="" method="post" novalidate>
+                <form action="" id="form-contact" method="post" novalidate>
                     <div class="row clearfix">
                         <div class="col-sm-6">
                             <div class="form-group">

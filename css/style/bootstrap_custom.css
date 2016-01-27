@@ -84,10 +84,11 @@
     color: #686868;
 }
 
-.container-modal a.button {
+.container-modal a.button-brown.button {
     display: block;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .section-registration-step .form-card input.registration-button {
@@ -148,6 +149,10 @@
 .navbar-default .navbar-nav > .active > a:not(.button), .navbar-default .navbar-nav > .active > a:hover:not(.button), .navbar-default .navbar-nav > .active > a:focus:not(.button), .navbar-default .navbar-nav a:focus:hover:not(.button), .navbar-default .navbar-nav a:hover:not(.button) {
     color: #18adf1 !important;
     background: transparent;
+}
+
+.modal-open .header .navbar-fixed-top{
+    right: 17px;
 }
 
 

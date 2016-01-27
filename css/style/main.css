@@ -683,6 +683,7 @@
 .section-box-blue a.button{
     background: white;
     max-width: 230px;
+    display: inline-block;
     width: 100%;
     border: 1px solid white;
 }
@@ -691,6 +692,16 @@
     background: transparent;
     color: white;
 }
+
+.section-subscribe form input:disabled{
+    cursor: default;
+}
+
+.section-subscribe h2{
+    position: relative;
+}
+
+
 
 
 
