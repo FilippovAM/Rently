@@ -4,13 +4,11 @@
     padding-top: 60px;
     color: white;
 }
-
 .section-slider h1{
     font-size: 58px;
     text-transform: capitalize;
     line-height: 120%;
 }
-
 .section-slider p{
     margin-top: 15px;
     margin-bottom: 30px;
@@ -20,16 +18,13 @@
 .section-propeties{
     padding: 35px 0;
 }
-
 .section-propeties  h2:first-child{
     padding: 45px 0;
     text-align: center;
 }
-
 .section-propeties .description{
     margin-top: 100px;
 }
-
 .description p{
     margin-top: 10px;
 }
@@ -38,7 +33,6 @@
     background: #18adf1;
     padding: 90px 0;
 }
-
 .section-box-blue a.button{
     border-radius: 5px;
     text-align: center;
@@ -50,29 +44,17 @@
 .section-subscribe{
     padding: 90px 0;
 }
-
 .section-subscribe h2:first-child{
     text-align: center;
 }
-
 .section-subscribe p{
     margin: 70px 0;
 }
-
 .section-subscribe p{
     color: #5c5c5c;
 }
-
 .section-subscribe input[type="email"]{
     width: 100%;
-}
-
-.email-box > .col-sm-6{
-    padding-right: 5px;
-}
-
-.email-box > .col-sm-4{
-    padding-left: 5px;
 }
 
 .section-subscribe .button{
@@ -83,18 +65,15 @@
     width: 100%;
     border: 1px solid #18adf1;
 }
-
 .section-subscribe .social-icons{
     margin-top: 40px;
     text-align: center;
     display: inline-block;
 }
-
 .social-icons li{
     display: inline-block;
     padding: 0 15px;
 }
-
 .social-icons li a{
     display: inline-block;
     position: relative;
@@ -105,12 +84,10 @@
 
     transition: box-shadow ease-in-out .15s;
 }
-
 .social-icons li a:hover{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.71),
                 inset 0 2px 0 rgba(255, 255, 255, 0.45);
 }
-
 .social-icons li a::after{
    content: '';
     position: absolute;
@@ -124,7 +101,6 @@
     transform: scale(0.3);
     transition: opacity ease-in-out .15s, transform ease-in-out .25s;
 }
-
 .social-icons li a:hover::after{
     opacity: 1;
     transform: scale(1);
@@ -136,53 +112,44 @@
     background: url('../../img/contact_sec_bg.png') 0 0 no-repeat;
     background-size: cover;
 }
-
 .section-contact form{
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
 }
-
 .form-container{
     padding: 65px 25px 80px;
 }
-
 .form-container h2{
     margin-bottom: 65px;
 }
-
 .section-contact .form-container{
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
-
 .form-container h2{
     color: white;
     text-align: center;
 }
-
 .form-group{
     margin-top: 25px;
 }
-
-.form-container .form-group input, .form-container .form-group select, .form-container .form-group textarea{
+.form-container .form-group input,
+.form-container .form-group select,
+.form-container .form-group textarea{
     width: 100%;
 }
-
 .form-container .form-group input[type="submit"]{
     width: 230px;
     color: white;
     border: none;
 }
 
-
-
 .section-slider .slider-container{
     width: 461px;
     background: no-repeat url('../../img/container_white.png') 0 0;
     background-size: cover;
 }
-
 .overlap{
     position: absolute;
     top: 0;
@@ -191,13 +158,11 @@
     z-index: 90;
     cursor: default;
 }
-
 .slider-container .swiper-container {
     width: 400px;
     margin-left: 31px;
     padding-top: 109px;
 }
-
 .swiper-container .button-slider{
     position: absolute;
     left: 50%;
@@ -209,46 +174,35 @@
     color: white;
     font-size: 15px;
 }
-
-.swiper-container .faccebook-button{
+.swiper-container .facebook-button {
     bottom: 50px;
     background: #1f5a9c;
 }
-
 .swiper-container .email-button{
     bottom: -20px;
     background: #00aef3;
 }
-
 .swiper-background{
     height: 515px;
 }
-
 .swiper-background-one{
     background: url('../../img/background-one.jpg');
     background-size: cover;
 }
-
 .swiper-background-two{
     background: url('../../img/background-two.jpg');
     background-size: cover;
 }
-
 .swiper-background-three{
     background: url('../../img/background-three.jpg');
     background-size: cover;
 }
-
 .info-phone{
     position: relative;
 }
-
 .info-phone{
     position: relative;
-
 }
-
-
 .points li{
     display: inline-block;
     padding: 5px;
@@ -256,14 +210,12 @@
     margin: 0 -1px;
     background: white;
 }
-
 .points {
     position: absolute;
     top: 112px;
     z-index: 100;
     left: 37px;
 }
-
 .info-phone .time{
     font-size: 16px;
     position: absolute;
@@ -272,44 +224,36 @@
     margin-left: -35px;
     z-index: 100;
 }
-
 .info-phone .battery{
     position: absolute;
     top: 112px;
     z-index: 100;
     right: 37px;
 }
-
 .phone-text{
     text-align: center;
     padding-top: 180px;
 }
-
 .phone-text h3{
     font-size: 40px;
     letter-spacing: 5px;
 }
-
 .phone-text p{
     margin-top: 5px;
     text-indent: 0;
     font-size: 20px;
     letter-spacing: 1px;
 }
-
 .home-main .section-slider .slider-container{
     float: right;
 }
-
 .home-main .section-slider p{
     text-indent: 0;
 }
-
 .home-main .section-slider .slider-container{
     background: no-repeat url('../../img/container_black.png') 0 0;
     background-size: cover;
 }
-
 .home-main .swiper-slide{
     margin-top: -1px;
 }
@@ -317,33 +261,26 @@
 .home-main .section-steps-rently{
     padding-top: 65px;
 }
-
 .section-steps-rently h2{
     text-align: center;
 }
-
 .section-steps-rently .finder-flow{
     padding-top: 60px;
 }
-
 .section-steps-rently .rubber-image{
     max-width: 310px;
 }
-
 .section-subscribe .form-group{
     display: inline-block;
     vertical-align: top;
     margin-top: 0;
 }
-
 .section-subscribe .form-group:last-child{
     width: 31.6%;
 }
-
 .section-subscribe .form-group:first-child{
     width: 49.125%;
 }
-
 .section-subscribe .alert-danger > p{
     margin: 0;
     text-align: left;
@@ -352,17 +289,14 @@
 .registration-step{
     padding: 60px 20px 60px 20px;
 }
-
 .step-line{
     background: #eaeaea;
     height: 7px;
     width: 100%;
 }
-
 .step-line ul{
     position: relative;
 }
-
  .step-line ul li{
     position: absolute;
     top: -30px;
@@ -373,55 +307,44 @@
     padding: 7px;
     border-radius: 50%;
 }
-
 .step-line ul li.active{
     background: #18adf1;
 }
-
 .step-line ul li.active::after{
     font-weight: 700;
     color: #4a4a4a;
 }
-
 .step-line ul li:first-child{
     left: -30px;
 }
-
 .step-line ul li:last-child{
     right: -30px;
 }
-
 .step-line ul li:nth-child(2){
     left: 50%;
     margin-left: -30px;
 }
-
 .step-line ul li::after{
     position: absolute;
     top: -35px;
     white-space: nowrap;
     color: #adadad;
 }
-
 .step-line ul li:first-child::after {
     content: 'Account Selection';
     margin-left: -57px;
 }
-
 .step-line ul li:nth-child(2)::after{
     content: 'Account Details';
     margin-left: -50px;
 }
-
 .step-line ul li:last-child::after{
     content: 'Overview';
     margin-left: -21px;
 }
-
 .table-responsive{
     margin-bottom: 20px;
 }
-
 .table.plan{
     width: 95%;
     margin: 0 auto;
@@ -430,24 +353,21 @@
     text-align: center;
     table-layout: auto;
 }
-
-.table.plan td, .table.plan th{
+.table.plan td,
+.table.plan th{
     padding: 10px 30px 10px;
     color: #5c5c5c;
     font-size: 17px;
     vertical-align: middle;
     border: none;
 }
-
 .table.plan tbody tr:first-child td{
     font-weight: 400;
 }
-
 .table.plan i.fontello-icon::before{
     font-size: 30px;
     color: #18adf1;
 }
-
 .table.plan thead th{
     padding-top: 20px;
     font-size: 22px;
@@ -455,23 +375,19 @@
     text-align: center;
     vertical-align: top;
 }
-
 .table.plan tfoot td{
     padding-top: 70px;
     padding-bottom: 35px;
 }
-
 .table.plan tfoot td a.button{
     color: white;
     display: block;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .table.plan thead th:first-child{
     text-align: left;
 }
-
 .table.plan tbody tr td:first-child{
     text-align: left;
 }
@@ -479,53 +395,44 @@
 .contact-us{
     text-align: center;
 }
-
 .contact-us h4{
     color: #18adf1;
     font-size: 25px;
 }
-
 .contact-us p{
     color: #5c5c5c;
     font-size: 22px;
     font-weight: 400;
 }
-
 .contact-us a.button{
     color: white;
     display: inline-block;
     width: 230px;
     margin-top: 20px;
 }
-
-.section-registration-step .form-group input, .section-registration-step .form-group select{
+.section-registration-step .form-group input,
+.section-registration-step .form-group select{
     display: inline-block;
     width: 100%;
 }
-
 .section-registration-step label{
     padding-left: 2px;
     color: #5c5c5c;
     font-size: 17px;
     display: block;
 }
-
 .section-registration-step form *[class*=col-] .form-group:first-child{
     margin-top: 0;
 }
-
 .section-registration-step .form-group{
     margin-top: 15px;
 }
-
 .checkbox-container{
     margin-top: 40px;
 }
-
 .checkbox-container .form-group input[type="checkbox"]{
     display: none;
 }
-
 .checkbox-container .form-group label::before{
     content: '';
     left: 0;
@@ -540,31 +447,25 @@
 
     transition: background ease-in-out .15s;
 }
-
 .checkbox-container .form-group input:checked + label::before{
     background: url('../../img/input-checked.png') no-repeat center center;
 }
-
 .checkbox-container .form-group label{
     position: relative;
     display: inline-block;
     padding-left: 40px;
     font-size: 0.9em;
 }
-
 .checkbox-container > small{
     color: #5c5c5c;
 }
-
 .checkbox-container .form-group input.button{
     margin-top: 33px;
 }
-
 .section-registration-step input.registration-button{
     display: block;
     margin: 0 auto;
 }
-
 .registration-button{
     max-width: 275px;
     color: white;
@@ -578,104 +479,81 @@
     max-width: 350px;
     margin: 0 auto;
 }
-
 .card-container article h1{
     text-align: center;
     font-size: 32px;
 }
-
 .card-container article h1 strong{
     font-size: 36px;
 }
-
 .section-registration-step .form-card input {
     margin-top: 15px;
     display: inline-block;
     width: 100%;
     vertical-align: middle;
 }
-
 .form-card input:first-child{
     margin-top: 0;
 }
-
 .form-card input[name="expiry"].form-control {
     width: 32%;
 }
-
 .form-card input[name="cvc"].form-control {
     width: 33.5%;
 }
-
 .section-registration-step .form-card input.registration-button{
     width: 32%;
 
     display: inline-block;
     vertical-align: top;
 }
-
 .result-form{
     color: #4a4a4a;
 }
-
 .result-form p{
-    font-size: 16.8px;
+    font-size: 17px;
     font-weight: 400;
 }
-
 .result-form ul{
     margin-top: 30px;
 }
-
 .result-form ul li{
     margin-top: 10px;
     font-weight: 400;
 }
-
 .result-form ul li span{
     font-weight: 100;
 }
-
 .result-form ul li:first-child{
     margin-top: 0;
 }
-
-.slider-container .faccebook-button:hover{
+.slider-container .facebook-button:hover{
     background: #204687;
 }
-
 .slider-container .email-button:hover{
     background: #02c0ff;
 }
-
 .button.button-brown{
     background: #4a4a4a;
 }
-
 .button.button-brown:hover{
     background: #3c3c3c;
 }
 
-
 .section-contact .form-group.has-warning p{
     color: white;
 }
-
 .section-contact .form-group select, .form-group select{
     height: 56px;
     color: rgba(92, 92, 92, 0.7);
     background: transparent;
 }
-
-
 .content-link{
     padding-bottom: 60px;
 }
-
 .content-link li{
     margin: 10px 0;
 }
-
 .content-link li a{
     color: white;
 }
@@ -687,7 +565,6 @@
     width: 100%;
     border: 1px solid white;
 }
-
 .section-box-blue a.button:hover{
     background: transparent;
     color: white;
@@ -696,7 +573,6 @@
 .section-subscribe form input:disabled{
     cursor: default;
 }
-
 .section-subscribe h2{
     position: relative;
 }
